@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('home.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-container {
+  background: linear-gradient(100deg, #04c8a0, #c5b8b8);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(163, 152, 152, 0.8);
+  width: 100%;
+ 
+  max-width: 500px;
+  text-align: center;
+}
+
+
+.login-container h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #0c0c0c;
+}
+
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+
+.tab-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: background 0.3s;
+}
+
+.tab-button.active {
+  background: #0056b3;
+}
+
+.tab-button:hover {
+  background: #0056b3;
+}
+
+
+.form-content {
+  display: none;
+}
+
+.form-content.active {
+  display: block;
+}
+
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+
+button[type="submit"] {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s;
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+  background: #0056b3;
+}
+
+
